@@ -46,7 +46,6 @@ h2{
     padding: 6px;
     margin: 5px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
 }
 
 .container{
@@ -65,4 +64,14 @@ h2{
     padding: 7px;
     margin: 7px;
     
+}
+
+footer{
+    background-color: darkslategrey;
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    margin: 20px 0px 0px 0px;
+    width: 1177px;
+    text-align: center;
 }
