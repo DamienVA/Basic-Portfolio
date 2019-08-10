@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     background-image: url("../images/memphis-mini-dark.png");
     color: antiquewhite;
@@ -16,16 +20,23 @@ header{
     flex-direction: row;
 }
 
+.header-content {
+    width: 960px;
+    margin: auto;
+}
+
 nav{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+    float: right;
 }
 
 h1{
+    float: left;
     background-color: antiquewhite;
     color: darkslategrey;
+    height: 100%;
 
 }
 
@@ -37,4 +48,8 @@ h1{
 #main-bio{
     background-color: aquamarine;
     color: darkslategrey;
+}
+
+#bio-image {
+    float: left;
 }
