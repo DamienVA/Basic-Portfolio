@@ -30,15 +30,21 @@ nav{
     flex-direction: row;
     justify-content: center;
     float: right;
+    color: antiquewhite;
+}
+
+a{
+    color: antiquewhite;
 }
 
 h1{
     float: left;
     background-color: antiquewhite;
     color: darkslategrey;
-    height: 70px;
-    padding: 0;
+    height: 60px;
+    padding: 10px;
     margin: 0;
+    text-align: center;
 
 }
 
@@ -49,7 +55,7 @@ h2{
 }
 
 .container{
-    width: 1024px;
+    width: 960px;
     margin: 15px auto;
     padding: 10px;
     background-color: aquamarine;
@@ -65,10 +71,12 @@ h2{
 
 footer{
     background-color: darkslategrey;
+    border-top: 8px solid antiquewhite;
     height: 40px;
-    position: relative;
     bottom: 0px;
+    right: 0px;
+    left: 0px;
     margin: 20px 0px 0px 0px;
-    width: 1177px;
+    clear: both;
     text-align: center;
 }
