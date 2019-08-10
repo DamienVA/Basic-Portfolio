@@ -50,11 +50,8 @@ h2{
 
 .container{
     width: 1024px;
-    margin: 0 auto;
+    margin: 15px auto;
     padding: 10px;
-}
-
-#main-bio{
     background-color: aquamarine;
     color: darkslategrey;
 }
@@ -69,7 +66,7 @@ h2{
 footer{
     background-color: darkslategrey;
     height: 40px;
-    position: absolute;
+    position: relative;
     bottom: 0px;
     margin: 20px 0px 0px 0px;
     width: 1177px;
